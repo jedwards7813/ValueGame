@@ -566,12 +566,12 @@ var valueGame = (function() {
 
     p.task.round1 = {
         timeline: [delayR1, tooFastR1, probeR1, responseR1, feedbackR1],
-        repetitions: 2,
+        repetitions: 50,
     };
 
     p.task.round2 = {
         timeline: [delayR2, tooFastR2, probeR2, responseR2, feedbackR2],
-        repetitions: 2,
+        repetitions: 50,
     };
 
    /*
